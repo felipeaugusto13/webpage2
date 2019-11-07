@@ -5,7 +5,6 @@
         <title>My webpage</title>
         <style>
             main{
-                background: lightgreen;
                 margin-left: 50px;
                 margin-right: 50px;
             }
@@ -18,7 +17,7 @@
             header h4{
                 font-style: italic;
                 color:green;
-                font-family: fantasy;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 margin-left: 10px;
             }
             nav{
@@ -29,14 +28,14 @@
                 padding: 0px 0px;
                 background: gray;
                 border-bottom: green solid;
-                color: green;
+                
             }
             nav ul li{
                 display: inline-block;
-                font-family: fantasy;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 padding: 10px 10px;
                 font-size: 25px;
-                color: green;
+                
                           }
             nav ul li a{
                 text-decoration: none;
@@ -45,7 +44,23 @@
             nav ul li a:hover{
                 background-color: red;
             }
+            article div{
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+            article div img{
+                border-right: 2px green solid;
+                padding-right: 10px;
+                float:left;
+            }
+            article div p{
+                float:right;
+                margin-right: 800px;
+                
+
+            }
         </style>
+
 
 
     </head>
@@ -62,6 +77,13 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
+            <article>
+                <div>
+                    <p><b>Image Classification:</b><br>Using neural nertworks to classify images</p>
+                    <img src="images/IA-brain.png" width="100px" height="100px">
+                    
+                </div>
+            </article>
         </main>
 
     </body>
